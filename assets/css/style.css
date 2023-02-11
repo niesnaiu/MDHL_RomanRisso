@@ -53,6 +53,7 @@ main{
     height: 50vh;
 }
 section{
+    width: 100%;
     display:inline-block;
 }
 section div.img-cont{
@@ -73,6 +74,10 @@ section div.txt-cont{
     vertical-align: top;
     line-height: 2rem;
   
+}
+
+section img{
+    max-width: 100%;
 }
 
 .titulosecundario {
