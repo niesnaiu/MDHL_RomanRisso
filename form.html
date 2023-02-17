@@ -17,10 +17,11 @@
                     <h1>Mighty Ducks Hockey League</h1>
                 <nav class="navs">
                         <a class="nav-link" href="./index.html">Home</a>
-                        <a class="nav-link" href="#">About MDHL</a>
+                        <a class="nav-link" href="./about.html">About MDHL</a>
                         <a class="nav-link" href="./contact.html">Contact</a>
                         <a class="nav-link" href="./GameRules.html">Game Rules</a>
                         <a class="nav-link" href="./schedule.html">Schedule</a>
+                        <a class="nav-link" href="#">Registration</a>
                 </nav>
                 </div>
        
@@ -35,7 +36,7 @@
                 </div>
             </div>
             <section>
-                <h2>Registration Form</h2>
+                <h2 id="titulo-form">Registration Form</h2>
                 
                 <form method="get" action="show_data.html">
                     <div class="contenedor-form">
@@ -90,7 +91,7 @@
                     <label class="grade-desc" for="fifth-rbt">5th</label>
                     </div>
                     
-                    <label>Which elementary school do you live near?</label>
+                    <label class="preguntas-formulario">Which elementary school do you live near?</label>
                     <label>Closest School:</label>
                     <div class="contenedor-school">
                    
@@ -124,7 +125,7 @@
                     </div>
                     </div>
 
-                    <label>What position(s) do you normally play? (check all that apply)</label>
+                    <label class="preguntas-formulario">What position(s) do you normally play? (check all that apply)</label>
                     <div class="contenedor-school">
                         <div class="group1">    
                     <div>
@@ -147,7 +148,7 @@
                     </div>    
                     </div>
                     </div>    
-                    <label>Uniform Size</label>
+                    <label class="preguntas-formulario">Uniform Size</label>
 
                     <div class="contenedor-school">
                         <div class="group1">
@@ -184,11 +185,12 @@
                     </div>
                     </div>
                 </div>    
-                    <label>Permission to play:</label>
-
-                    <p>I, the parent or guardian of the minor, agree that the registrant and I will abide by all the rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical injury associated with hockey and in consideration for the "League" acceptins the registrant for its hockey programas and activities, I hereby release, discharge, and/or otherwise indemnify MDHL, their employees and associated personnel and volunteers, including the facilities used for practices and games, against any claim by or on behalf the registrant as a result of the registrant's participation in the programand/orbeing transported to or from MDHL sponsored activities, which transportation</p>
-                    <p>By signing below, I here by agree and authorize the above. In addition, by signing below, I also acknowledge that I have read the cancellation policy and agree to its terms.</p>
-                   <div>
+                    <label class="preguntas-formulario">Permission to play:</label>
+                <div class="permission-text">
+                    <p>I, the parent or guardian of the minor, agree that the registrant and I will abide by all the rules of the <strong>Mighty Ducks Hockey League (MDHL)</strong>. In recognizing the possibility of physical injury associated with hockey and in consideration for the "League" acceptins the registrant for its hockey programas and activities, I hereby release, discharge, and/or otherwise <strong>indemnify</strong> MDHL, their employees and associated personnel and volunteers, including the facilities used for practices and games, against any claim by or on behalf the registrant as a result of the registrant's participation in the programand/orbeing transported to or from MDHL sponsored activities, which transportation</p>
+                    <p>By signing below, I here by agree and <strong>authorize the above</strong>. In addition, by signing below, I also acknowledge that I have read the cancellation policy and agree to its terms.</p>
+                </div>
+                    <div>
                     <label for="signature-txb">Parent/Guardian Signature:</label>
                     <input type="text" name="signature" id="signature-txb">
                 </div>

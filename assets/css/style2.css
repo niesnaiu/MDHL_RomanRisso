@@ -7,9 +7,10 @@
 }
 body{
     background-color: #9EA7A6;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 header{
-    height: 50vh;
+    height: 45vh;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
 }
@@ -117,3 +118,107 @@ section{
     text-align: center;
 }
 
+#titulo-form{
+    background-color: brown;
+    color: #f8f8f8;
+    padding: 1rem;
+    
+}
+
+.contenedor-form {
+    display:flex;
+    background-color: rgb(234, 236, 236);
+    flex-direction: column;
+    padding: 1.5em 1em; 
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.contenedor-fl,.street-address,.contenedor-birthdate, .contenedor-gender, .contenedor-grade{
+    display: flex;
+    flex-grow: 2;
+    padding: 1em;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.preguntas-formulario{
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+.contenedor-grade input, .contenedor-birthdate input, .contenedor-birthdate label{
+    margin-left: 1rem;
+}
+
+.contenedor-school {
+    display: flex;
+    flex-direction: row;
+    background-color: #f8f8f8;
+    width: 100%;
+}
+
+.group1{
+    display: flex;
+    flex-direction: column;
+    width:40%;
+}
+
+.permission-text{
+    text-align:justify;
+
+}
+
+.group2{
+    display: flex;
+    flex-direction: column;
+    width:40%;
+}
+
+#streetaddress-tbx{
+    flex-grow: inherit;
+}
+
+.grade-desc{
+    font-variant-position: super;
+}
+
+.contenedor-fl>*{
+    margin-right: 0.6em;
+}
+
+.txt-cont table *{
+    border-spacing: 1rem;
+    padding: 1rem;
+}
+
+.txt-cont table thead{
+    background-color: #e09421;
+
+}
+.txt-cont tr.linea td, td.linea-td{
+ border-bottom: 2px solid #888888;
+}
+
+td.fecha{
+ text-align: center;
+ font-weight: bold;
+}
+.mapa-contenedor{
+    padding: 1rem;
+    display: flex;
+    background-color: #677474;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1rem;
+}
+.mapa-contenedor div h3{
+    text-align: center;
+    color: #f8f8f8;
+    padding: 0.5rem;
+}
+footer{
+    height: 5vh;
+    background-color:#293C42;
+}
